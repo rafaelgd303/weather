@@ -1,1 +1,2 @@
 c:\users\rpaw\documents\visual studio 2015\Projects\weather\weather\bin\Debug\weather.exe.config
+C:\Users\rpaw\Documents\GitHub\weather\weather\bin\Debug\weather.exe.config

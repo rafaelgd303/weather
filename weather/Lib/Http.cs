@@ -11,7 +11,7 @@ namespace weather.Lib
 
         public static string Post(string host, string data)
         {
-            var request = (HttpWebRequest)WebRequest.Create(host);
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(host);
             request.Method = "POST";
             request.KeepAlive = true;
 
@@ -73,7 +73,7 @@ namespace weather.Lib
 
             try
             {
-                var req = (HttpWebRequest)WebRequest.Create(url);
+                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
                 req.CookieContainer = Cc;
                 req.Method = "GET";
                 req.KeepAlive = true;

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace weather
 {
     // Objaśnienie jednostek http://openweathermap.org/weather-data
-    // Znaki specjalne w konsoli http://www.unicode.org/charts/charindex.html - dodaj przed każdym \x np. \x00B0
+    // Znaki specjalne w konsoli http://www.unicode.org/charts/charindex.html - dodać przed każdym \x np. \x00B0
 
     class Program
     {
@@ -23,7 +23,7 @@ namespace weather
 
         static void TryIt()
         {
-            Console.WriteLine("Podaj lokalizację, aby sprawdzić dla niej pogodę np. Warszawa");
+            Console.WriteLine("Podaj lokalizację, aby sprawdzić dla niej pogodę np. Gdańsk");
             string city = Console.ReadLine();
             string api = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}", city);
 
