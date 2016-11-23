@@ -9,7 +9,7 @@ namespace weather
 {
     // Objaśnienie jednostek http://openweathermap.org/weather-data
     // Znaki specjalne w konsoli http://www.unicode.org/charts/charindex.html - dodać przed każdym \x np. \x00B0
-
+    // API call dodać klucz
     class Program
     {
         public static ConsoleColor DefaultColor = Console.ForegroundColor;
