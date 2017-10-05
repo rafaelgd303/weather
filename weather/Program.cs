@@ -24,8 +24,9 @@ namespace weather
         static void TryIt()
         {
             Console.WriteLine("Podaj lokalizację, aby sprawdzić dla niej pogodę np. Gdańsk");
+            string apiKey = "&APPID=db2255b8a6f317ed6cf98a049c744937";
             string city = Console.ReadLine();
-            string api = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}", city);
+            string api = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}{1}", city, apiKey);
 
             string content = Http.Get(api);
 

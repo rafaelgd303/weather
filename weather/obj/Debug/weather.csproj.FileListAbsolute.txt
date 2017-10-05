@@ -1,2 +1,8 @@
 c:\users\rpaw\documents\visual studio 2015\Projects\weather\weather\bin\Debug\weather.exe.config
 C:\Users\rpaw\Documents\GitHub\weather\weather\bin\Debug\weather.exe.config
+C:\Users\rpawlowski\Source\Repos\weather\weather\bin\Debug\weather.exe.config
+C:\Users\rpawlowski\Source\Repos\weather\weather\bin\Debug\weather.exe
+C:\Users\rpawlowski\Source\Repos\weather\weather\bin\Debug\weather.pdb
+C:\Users\rpawlowski\Source\Repos\weather\weather\obj\Debug\weather.csprojResolveAssemblyReference.cache
+C:\Users\rpawlowski\Source\Repos\weather\weather\obj\Debug\weather.exe
+C:\Users\rpawlowski\Source\Repos\weather\weather\obj\Debug\weather.pdb
